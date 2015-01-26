@@ -49,6 +49,11 @@ html,body{
     z-index:1;  
 }
 
+.slide-photo {
+    height: 100px;
+    width: 100px;
+}
+
 .slide {
     background-attachment: fixed;
     width:100%;

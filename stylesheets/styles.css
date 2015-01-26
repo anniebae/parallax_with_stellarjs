@@ -92,13 +92,17 @@ html,body{
 #slide1{
     background-color: black;
     background-image:url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /******************************
  SLIDE 2 
 *******************************/
 #slide2{
     background-color: #333333;
-    background-image:url(../images/slide3/converse.jpg);
+    background-image:url(../images/beanie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #slide2 img:first-child{
     position:absolute;
@@ -144,7 +148,9 @@ left: -150px;
 /****************************** SLIDE 3 *******************************/ 
 #slide3 {   
     background-color: #707070;
-    background-image:url(../images/slide3/beanie.jpg); 
+    background-image:url(../images/converse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }  
 #slide3 img:first-child {   
     position:absolute;  
@@ -183,7 +189,9 @@ left: -150px;
  
 #slide4{
     background-color: #C6C6C6;
-    background-image:url(../images/slide4/topknot.jpg);
+    background-image:url(../images/topknot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

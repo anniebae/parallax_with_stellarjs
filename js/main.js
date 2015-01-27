@@ -8,6 +8,7 @@ jQuery(document).ready(function ($) {
     var links = $('.navigation').find('li');
     slide = $('.slide');
     button = $('.button');
+    buttonlast = $('.buttonlast');
     mywindow = $(window);
     htmlbody = $('html,body');
  
@@ -59,6 +60,13 @@ jQuery(document).ready(function ($) {
  
     //When the user clicks on the button, get the get the data-slide attribute value of the button and pass that variable to the goToByScroll function
     button.click(function (e) {
+        e.preventDefault();
+        dataslide = $(this).attr('data-slide');
+        goToByScroll(dataslide);
+ 
+    });
+
+    buttonlast.click(function (e) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);

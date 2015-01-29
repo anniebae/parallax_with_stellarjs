@@ -17,7 +17,7 @@ $(function() {
   blah(); 
 
   $('#button-start').on('click', function() {
-    $bar.show();
+    setTimeout('$bar.show();', 1500);
   });
 
   $('.start-over').on('click', function() {

@@ -86,13 +86,13 @@ header {
 
 .button{
     display:block;
-    width:50px;
+    width:70px;
     height:50px;
     position:absolute;
     bottom:0px;
-    left:50%;
+    left:47.5%;
     background-color:#333333;
-    background-image:url(../images/arrow.png);
+    background-image:url(../images/chevron-down.png);
     background-repeat:no-repeat;
 }
 
@@ -103,13 +103,13 @@ header {
 
 .buttonlast{
     display:block;
-    width:50px;
+    width:70px;
     height:50px;
     position:absolute;
     bottom:0px;
-    left:50%;
+    left:47.5%;
     background-color:#333333;
-    background-image:url(../images/arrowup.png);
+    background-image:url(../images/chevron-up.png);
     background-repeat:no-repeat;
 }
 

@@ -20,7 +20,7 @@ $(function() {
     $bar.show();
   });
 
-  $('#button-start-over').on('click', function() {
+  $('.start-over').on('click', function() {
     $bar.hide();
   });
 

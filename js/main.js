@@ -1,6 +1,10 @@
+$("#slide1").onload(function(){
+    $('.container').hide;
+});
+
 jQuery(document).ready(function ($) {
  
- 
+
     //initialise Stellar.js
     $(window).stellar();
  

@@ -1,9 +1,39 @@
-$("#slide1").onload(function(){
-    $('.container').hide;
+// $("#slide1").onload(function(){
+//     $('.container').hide();
+// });
+
+
+
+$(function() {
+  $slide1 = $('#slide1');
+  $bar    = $('.container');
+
+
+  blah = function() {
+      $bar.hide();
+      if ($slide1 === null) {
+      }
+  };
+  blah(); 
+
+  $('#button-start').on('click', function() {
+    $bar.show();
+  });
+
+  $('#button-start-over').on('click', function() {
+    $bar.hide();
+  });
+
+
 });
 
+
+
+
+
 jQuery(document).ready(function ($) {
- 
+
+
 
     //initialise Stellar.js
     $(window).stellar();

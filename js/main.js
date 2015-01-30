@@ -9,12 +9,12 @@ $(function() {
   $bar    = $('.container');
 
 
-  blah = function() {
+  containerDiv = function() {
       $bar.hide();
       if ($slide1 === null) {
       }
   };
-  blah(); 
+  containerDiv(); 
 
   $('#button-start').on('click', function() {
     setTimeout('$bar.show();', 1500);

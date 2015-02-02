@@ -175,3 +175,59 @@ header {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1230px) {
+  .container {
+    font-size: 14px;
+    height: 50%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    font-size: 14px;
+    height: 55%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    font-size: 13.5px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .container {
+    font-size: 13px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .container {
+    font-size: 12.5px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    font-size: 12px;
+    height: 65%;
+    top: 15%;
+  }
+}
+

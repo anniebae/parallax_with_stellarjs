@@ -128,7 +128,7 @@ header {
 }
 
 #slide1 {
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     z-index: 5;
 }
 
@@ -175,10 +175,6 @@ header {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
-
 
 
 

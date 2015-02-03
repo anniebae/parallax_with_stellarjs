@@ -2,6 +2,8 @@ $(function() {
   $slide1 = $('#slide1');
   $bar    = $('.container');
   $skyline = $('.first_slide_container');
+  $firstSlideCover = $('.first_slide_cover');
+  $firstSlideCoverTxt = $('.first_slide_cover_txt');
 
   containerDiv = function() {
       $bar.hide();
@@ -13,10 +15,14 @@ $(function() {
   $('#button-start').on('click', function() {
     setTimeout('$bar.show();', 1500);
     $skyline.hide();
+    $firstSlideCover.hide();
+    $firstSlideCoverTxt.hide();
   });
   $('.start-over').on('click', function() {
     $bar.hide();
     setTimeout('$skyline.show();', 1700);
+    setTimeout('$firstSlideCover.show();', 1700);
+    setTimeout('$firstSlideCoverTxt.show();', 1700);
   });
 });
 

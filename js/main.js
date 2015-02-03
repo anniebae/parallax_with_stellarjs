@@ -1,25 +1,25 @@
 $(function() {
   $slide1 = $('#slide1');
-  $bar    = $('.container');
+  $container    = $('.container');
   $skyline = $('.first_slide_container');
   $firstSlideCover = $('.first_slide_cover');
   $firstSlideCoverTxt = $('.first_slide_cover_txt');
 
   containerDiv = function() {
-      $bar.hide();
+      $container.hide();
       if ($slide1 === null) {
       }
   };
   containerDiv(); 
 
   $('#button-start').on('click', function() {
-    setTimeout('$bar.show();', 1500);
+    setTimeout('$container.show();', 1500);
     $skyline.hide();
     $firstSlideCover.hide();
     $firstSlideCoverTxt.hide();
   });
   $('.start-over').on('click', function() {
-    $bar.hide();
+    $container.hide();
     setTimeout('$skyline.show();', 1700);
     setTimeout('$firstSlideCover.show();', 1700);
     setTimeout('$firstSlideCoverTxt.show();', 1700);

@@ -7,7 +7,7 @@
 $(function() {
   $slide1 = $('#slide1');
   $bar    = $('.container');
-
+  $skyline = $('.first_slide_container');
 
   containerDiv = function() {
       $bar.hide();
@@ -18,10 +18,11 @@ $(function() {
 
   $('#button-start').on('click', function() {
     setTimeout('$bar.show();', 1500);
+    $skyline.hide();
   });
-
   $('.start-over').on('click', function() {
     $bar.hide();
+    setTimeout('$skyline.show();', 1700);
   });
 
 

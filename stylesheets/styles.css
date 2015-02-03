@@ -1,0 +1,377 @@
+html,body{ 
+    font-family: Helvetica;
+    font-weight: 100;
+    width:100%;     
+    height:100%;
+    color: white;
+}
+
+header {
+    color: black;
+    font-size: 8em;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+a {
+  color: lightgrey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  transition: 2s;
+}
+
+.copyright {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 450px;
+}
+
+
+.navigation {   
+    position:fixed;     
+    z-index:1;      
+    top:20px;  
+}  
+.navigation li {    
+    color:#333333;      
+    display:block;      
+    padding: 0 10px;    
+    line-height:30px;   
+    margin-bottom:2px;      
+    font-weight:bold;   
+    -webkit-transition: all .2s ease-in-out;    
+    border-bottom:1px solid black;      
+    text-align:left;    
+    width:53px;  
+}  
+.navigation li:hover,
+.active {   
+    font-size:25px;     
+    cursor:pointer;     
+    width:100px!important;  
+}
+
+.first_slide_container {
+    background-image: url(../images/skyline.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:fixed;  
+    top: 28%;  
+    left: 0;
+    width: 100%;
+    height: 350px; 
+    z-index:1;
+}
+
+.container {  
+    background-color: black;
+    position:fixed;  
+    top: 28%;  
+    left: 0;
+    width: 100%;
+    height: 350px; 
+    z-index:1;
+    opacity: 0.6;
+}
+
+.blue-bg-wrapper {
+    position:fixed;  
+    top: 28%;  
+    left: 0;
+    width: 100%;
+    height: 350px; 
+    z-index:2;
+}
+
+.slide-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.slide {
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper {
+    width:960px;
+    height:200px;
+    margin:0 auto;
+    position:relative;
+}
+.slideno {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    font-size:100px;
+    font-weight:bold;
+    color:rgba(255,255,255,0.3);
+}
+
+.button{
+    display:block;
+    width:70px;
+    height:50px;
+    position:absolute;
+    bottom:0px;
+    left:47.5%;
+    background-color:#333333;
+    background-image:url(../images/chevron-down.png);
+    background-repeat:no-repeat;
+}
+
+.button:hover{
+    background-color:#494949;
+    cursor:pointer;
+}
+
+.buttonlast{
+    display:block;
+    width:70px;
+    height:50px;
+    position:absolute;
+    top:0px;
+    left:47.5%;
+    background-color:#333333;
+    background-image:url(../images/chevron-up.png);
+    background-repeat:no-repeat;
+}
+
+.buttonlast:hover{
+    background-color:#494949;
+    cursor:pointer;
+}
+
+#slide1 {
+    z-index: 5;
+}
+
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2 {
+    background-color: black;
+    background-image:url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/******************************
+ SLIDE 3
+*******************************/
+#slide3 {
+    background-color: #333333;
+    background-image:url(../images/beanie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/****************************** SLIDE 4 *******************************/ 
+#slide4 {   
+    background-color: #707070;
+    background-image:url(../images/converse.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+/******************************
+ SLIDE 5 
+*******************************/
+ 
+#slide5 {
+    background-color: #C6C6C6;
+    background-image:url(../images/topknot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1238px) {
+  .container {
+    font-size: 14px;
+    height: 51%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .container {
+    font-size: 14px;
+    height: 50%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    font-size: 14px;
+    height: 55%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    font-size: 13.5px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .container {
+    font-size: 13px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .container {
+    font-size: 12.5px;
+    height: 60%;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .container {
+    font-size: 12px;
+    height: 62%;
+    top: 19%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    font-size: 12.5px;
+    height: 68%;
+    top: 14%;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .container {
+    font-size: 12px;
+    height: 67%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .container {
+    font-size: 12px;
+    height: 66%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .container {
+    font-size: 12px;
+    height: 70%;
+    top: 13%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    font-size: 12px;
+    height: 74%;
+    top: 12%;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .container {
+    font-size: 12px;
+    height: 78%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .container {
+    font-size: 12px;
+    height: 82%;
+    top: 9%;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .container {
+    font-size: 11.5px;
+    height: 78%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .container {
+    font-size: 11.5px;
+    height: 82%;
+    top: 9%;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .container {
+    font-size: 11.5px;
+    height: 83%;
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .container {
+    font-size: 11.5px;
+    height: 86%;
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  .container {
+    font-size: 11.5px;
+    height: 85%;
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .container {
+    font-size: 11.5px;
+    height: 87%;
+    top: 7%;
+  }
+}
+
+
+@media screen and (max-width: 445px) {
+  .container {
+    font-size: 11.5px;
+    height: 90%;
+    top: 6%;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .container {
+    font-size: 11px;
+    height: 87%;
+    top: 7%;
+  }
+}

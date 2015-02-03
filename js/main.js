@@ -1,9 +1,3 @@
-// $("#slide1").onload(function(){
-//     $('.container').hide();
-// });
-
-
-
 $(function() {
   $slide1 = $('#slide1');
   $bar    = $('.container');
@@ -25,8 +19,6 @@ $(function() {
     setTimeout('$skyline.show();', 1700);
   });
 });
-
-
 
 
 

@@ -24,8 +24,6 @@ $(function() {
     $bar.hide();
     setTimeout('$skyline.show();', 1700);
   });
-
-
 });
 
 

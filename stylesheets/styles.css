@@ -14,6 +14,16 @@ header {
     top: 0;
 }
 
+a {
+  color: lightgrey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  transition: 2s;
+}
+
 .copyright {
     color: black;
     font-size: 1.5em;
@@ -48,6 +58,7 @@ header {
 
 .first_slide_container {
     background-image: url(../images/skyline.png) ;
+    background-repeat: no-repeat;
     background-size: 100%;
     position:fixed;  
     top: 28%;  
@@ -139,7 +150,6 @@ header {
 }
 
 #slide1 {
-    /*border: 5px solid black;*/
     z-index: 5;
 }
 

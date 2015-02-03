@@ -14,7 +14,7 @@ header {
   font-family: 'Poiret One';
 }
 
-a {
+a.copyright-txt {
   color: lightgrey;
 }
 
@@ -109,6 +109,22 @@ h3 {
     height: 350px; 
     z-index:1;
     opacity: 0.6;
+}
+
+#imagine-txt:hover {
+  color: lightpink;
+}
+
+#innovate-txt:hover {
+  color: yellow;
+}
+
+#influence-txt:hover {
+  color: lightblue;
+}
+
+#inspire-txt:hover {
+  color: lightgreen;
 }
 
 .blue-bg-wrapper {

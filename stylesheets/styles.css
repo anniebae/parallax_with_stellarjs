@@ -1,4 +1,21 @@
 html,body{ 
+<<<<<<< HEAD
+    font-family: Helvetica;
+    font-weight: 100;
+    width:100%;     
+    height:100%;
+    color: white;
+}
+
+header {
+    color: black;
+    font-size: 8em;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+a {
+=======
   font-family: Helvetica;
   font-weight: 100;
   width:100%;     
@@ -15,6 +32,7 @@ header {
 }
 
 a.copyright-txt {
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
   color: lightgrey;
 }
 
@@ -25,18 +43,40 @@ a:hover {
 }
 
 .copyright {
+<<<<<<< HEAD
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 450px;
+}
+
+
+=======
   color: black;
   font-size: 1.5em;
   text-align: center;
   padding-top: 450px;
 }
 
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 .navigation {   
     position:fixed;     
     z-index:1;      
     top:20px;  
 }  
 .navigation li {    
+<<<<<<< HEAD
+    color:#333333;      
+    display:block;      
+    padding: 0 10px;    
+    line-height:30px;   
+    margin-bottom:2px;      
+    font-weight:bold;   
+    -webkit-transition: all .2s ease-in-out;    
+    border-bottom:1px solid black;      
+    text-align:left;    
+    width:53px;  
+=======
   color:#333333;      
   display:block;      
   padding: 0 10px;    
@@ -47,6 +87,7 @@ a:hover {
   border-bottom:1px solid black;      
   text-align:left;    
   width:53px;  
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 }  
 .navigation li:hover,
 .active {   
@@ -67,6 +108,8 @@ a:hover {
     z-index:1;
 }
 
+<<<<<<< HEAD
+=======
 .first_slide_cover {
     background-size: 100%;
     background-color: black;
@@ -100,6 +143,7 @@ h3 {
   font-family: 'Poiret One';
 }
 
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 .container {  
     background-color: black;
     position:fixed;  
@@ -111,6 +155,8 @@ h3 {
     opacity: 0.6;
 }
 
+<<<<<<< HEAD
+=======
 #imagine-txt:hover {
   color: lightpink;
 }
@@ -127,6 +173,7 @@ h3 {
   color: lightgreen;
 }
 
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 .blue-bg-wrapper {
     position:fixed;  
     top: 28%;  
@@ -270,9 +317,12 @@ h3 {
     height: 55%;
     top: 25%;
   }
+<<<<<<< HEAD
+=======
   h1 {
     font-size: 8em;
   }
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 }
 
 @media screen and (max-width: 950px) {
@@ -281,9 +331,12 @@ h3 {
     height: 60%;
     top: 20%;
   }
+<<<<<<< HEAD
+=======
   h1 {
     font-size: 7.5em;
   }
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 }
 
 @media screen and (max-width: 875px) {
@@ -292,9 +345,12 @@ h3 {
     height: 60%;
     top: 20%;
   }
+<<<<<<< HEAD
+=======
   h1 {
     font-size: 7em;
   }
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 }
 
 @media screen and (max-width: 815px) {
@@ -311,9 +367,12 @@ h3 {
     height: 62%;
     top: 19%;
   }
+<<<<<<< HEAD
+=======
   h1 {
     font-size: 6em;
   }
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 }
 
 @media screen and (max-width: 700px) {
@@ -332,12 +391,15 @@ h3 {
   }
 }
 
+<<<<<<< HEAD
+=======
 @media screen and (max-width: 637px) {
   h1 {
     font-size: 5em;
   }
 }
 
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
 @media screen and (max-width: 635px) {
   .container {
     font-size: 12px;

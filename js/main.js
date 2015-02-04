@@ -1,5 +1,12 @@
 $(function() {
   $slide1 = $('#slide1');
+<<<<<<< HEAD
+  $bar    = $('.container');
+  $skyline = $('.first_slide_container');
+
+  containerDiv = function() {
+      $bar.hide();
+=======
   $container    = $('.container');
   $skyline = $('.first_slide_container');
   $firstSlideCover = $('.first_slide_cover');
@@ -7,12 +14,21 @@ $(function() {
 
   containerDiv = function() {
       $container.hide();
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
       if ($slide1 === null) {
       }
   };
   containerDiv(); 
 
   $('#button-start').on('click', function() {
+<<<<<<< HEAD
+    setTimeout('$bar.show();', 1500);
+    $skyline.hide();
+  });
+  $('.start-over').on('click', function() {
+    $bar.hide();
+    setTimeout('$skyline.show();', 1700);
+=======
     setTimeout('$container.show();', 1500);
     $skyline.hide();
     $firstSlideCover.hide();
@@ -23,6 +39,7 @@ $(function() {
     setTimeout('$skyline.show();', 1700);
     setTimeout('$firstSlideCover.show();', 1700);
     setTimeout('$firstSlideCoverTxt.show();', 1700);
+>>>>>>> 7320289394cd1e977ccd4521b74e5097646e8726
   });
 });
 

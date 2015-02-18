@@ -24,7 +24,18 @@ $(function() {
     setTimeout('$firstSlideCover.show();', 1700);
     setTimeout('$firstSlideCoverTxt.show();', 1700);
   });
+  $('body').on({
+    'mousewheel' : function(e) {
+        if (e.target.id == 'el') return;
+        e.preventDefault();
+        e.stopPropagation();
+    }
+  });
+
 });
+
+
+
 
 
 

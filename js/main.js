@@ -29,7 +29,12 @@ $(function() {
         if (e.target.id == 'el') return;
         e.preventDefault();
     }
+
+
+    
   });
+
+
 
 });
 

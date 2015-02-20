@@ -111,7 +111,7 @@ h3 {
     opacity: 0.6;
 }
 
-#imagine-txt:hover {
+/*#imagine-txt:hover {
   color: lightpink;
 }
 
@@ -125,7 +125,7 @@ h3 {
 
 #inspire-txt:hover {
   color: lightgreen;
-}
+}*/
 
 .blue-bg-wrapper {
     position:fixed;  

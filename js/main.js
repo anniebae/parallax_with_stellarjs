@@ -29,12 +29,26 @@ $(function() {
         if (e.target.id == 'el') return;
         e.preventDefault();
     }
-
-
-    
   });
 
-
+  $(".first-button").on('click', function() {
+    $("#imagine-txt").css("color", "lightpink");
+  });
+  $(".second-button").on('click', function() {
+    $("#imagine-txt").css("color", "white");
+    $("#innovate-txt").css("color", "yellow");
+  });
+  $(".third-button").on('click', function() {
+    $("#imagine-txt").css("color", "white");
+    $("#innovate-txt").css("color", "white");
+    $("#influence-txt").css("color", "#E1E1FF");
+  });
+  $(".fourth-button").on('click', function() {
+    $("#imagine-txt").css("color", "white");
+    $("#innovate-txt").css("color", "white");
+    $("#influence-txt").css("color", "white");
+    $("#inspire-txt").css("color", "lightgreen");
+  });
 
 });
 

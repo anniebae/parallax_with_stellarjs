@@ -32,9 +32,9 @@ a:hover {
 }
 
 .navigation {   
-    position:fixed;     
-    z-index:1;      
-    top:20px;  
+  position:fixed;     
+  z-index:1;      
+  top:20px;  
 }  
 .navigation li {    
   color:#333333;      
@@ -107,25 +107,22 @@ h3 {
     left: 0;
     width: 100%;
     height: 350px; 
-    z-index:1;
+    z-index: 8;
     opacity: 0.6;
 }
 
-/*#imagine-txt:hover {
-  color: lightpink;
-}
 
-#innovate-txt:hover {
-  color: yellow;
+/*WORKING ON IT*/
+.row {
+  opacity: 1;
+  position:fixed;  
+  top: 28%;  
+  left: 0;
+  width: 100%;
+  height: 350px;
+  z-index: 999;
 }
-
-#influence-txt:hover {
-  color: lightblue;
-}
-
-#inspire-txt:hover {
-  color: lightgreen;
-}*/
+/*WORKING ON IT*/
 
 .blue-bg-wrapper {
     position:fixed;  
